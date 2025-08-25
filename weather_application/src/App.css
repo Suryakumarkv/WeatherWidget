@@ -1,0 +1,9 @@
+/* Make sure the whole page is a flex container */
+body, #root {
+  height: 100vh;              /* Full viewport height */
+  display: flex;
+  justify-content: center;    /* Center horizontally */
+  align-items: center;        /* Center vertically */
+  margin: 0;
+  background-color: #222;     /* (optional) match your dark background */
+}
